@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body {
+  font-family: "Satisfy", cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.nav-logo {
+  width: 45px;
+}
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+}
+nav h1 {
+  color: #0077b6;
+  font-size: 1.5em;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #0077b6;
+  outline: none;
+  font-size: 1.3em;
+  color: #0077b6;
+  font-family: "Satisfy", cursive;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+}
+
+button:hover {
+  background-color: #023e8a;
+  color: #fff;
+}
+
+#result {
+  margin-top: 20px;
+}
+.recipe-img {
+  width: 50%;
+  height: 40%;
+  filter: drop-shadow(4px 4px 4px #007bff);
+}
+
+.main-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.details {
+  width: 50%;
+  text-align: center;
+  color: #0077b6;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#recipe-ul {
+  display: none;
+  text-align: justify;
+  list-style: none;
+  line-height: 1.5em;
+  word-spacing: 3px;
+  color: #0077b6;
+  border: 2px solid #0077b6;
+  padding: 5px 10px;
+}
